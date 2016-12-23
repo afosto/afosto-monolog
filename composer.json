@@ -1,0 +1,29 @@
+{
+    "name": "afosto/monolog",
+    "description": "Send logs from Monolog to the Afosto logging system",
+    "minimum-stability": "stable",
+    "type": "package",
+    "keywords": [
+        "afosto",
+        "api",
+        "monolog",
+        "client"
+    ],
+    "homepage": "https://afosto.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Afosto Team",
+            "homepage": "https://afosto.com"
+        }
+    ],
+    "require": {
+        "afosto/api-client": "^0.4",
+        "monolog/monolog": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afosto\\Monolog\\": "src"
+        }
+    }
+}
